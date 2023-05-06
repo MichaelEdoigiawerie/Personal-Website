@@ -7,8 +7,8 @@
 
 :root {
   font-size: 14px;
-  --col-primary: #191d2b;
-  --col-secondary: #27ae60;
+  --col-primary: #00539c;
+  --col-secondary: #eea47f;
   --col-white: #ffffff;
   --col-black: #000;
   --col-grey1: #dbe1e8;
@@ -20,8 +20,8 @@
 }
 
 .light-mode {
-  --col-primary: #e6e2d4;
-  --col-secondary: #d8519f;
+  --col-primary: #ffac63;
+  --col-secondary: #115b80;
   --col-white: 0;
   --col-black: #000;
   --col-grey1: #241e17;
@@ -596,17 +596,6 @@ section {
 .main-title h2 span {
   color: var(--col-secondary);
 }
-.main-title h2 .bg-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  color: var(--col-grey5);
-  transition: all 0.4s ease-in-out;
-  z-index: -1;
-  transform: translate(-50%, -50%);
-  font-weight: 800;
-  font-size: 6.3rem;
-}
 
 @media screen and (max-width: 600px) {
   .about-container {
@@ -621,10 +610,6 @@ section {
   }
   .about-container .left-about p {
     padding-left: 0;
-  }
-  .experience {
-    grid-template-columns: 1fr;
-    padding-bottom: 6rem;
   }
   .works {
     grid-template-columns: 1fr;

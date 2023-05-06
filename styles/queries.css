@@ -12,10 +12,6 @@
   .about-container .left-about p {
     padding-left: 0;
   }
-  .experience {
-    grid-template-columns: 1fr;
-    padding-bottom: 6rem;
-  }
   .works {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
