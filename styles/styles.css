@@ -7,8 +7,8 @@
 
 :root {
   font-size: 14px;
-  --col-primary: #00539c;
-  --col-secondary: #eea47f;
+  --col-primary: #4831d4;
+  --col-secondary:#ccf381;
   --col-white: #ffffff;
   --col-black: #000;
   --col-grey1: #dbe1e8;
@@ -20,8 +20,8 @@
 }
 
 .light-mode {
-  --col-primary: #ffac63;
-  --col-secondary: #115b80;
+  --col-primary: #b7ce2b;
+  --col-secondary: #330c7e;
   --col-white: 0;
   --col-black: #000;
   --col-grey1: #241e17;
